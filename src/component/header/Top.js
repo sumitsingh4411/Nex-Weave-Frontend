@@ -2,7 +2,7 @@ import React from 'react'
 import circle from '../../assets/images/sync-alt-solid.svg';
 import { Button, Checkbox, FormControlLabel } from '@material-ui/core';
 import AddIcon from '@material-ui/icons/Add';
-
+import './HeaderStyle.css';
 function Top() {
     return (
         <div>
@@ -21,10 +21,10 @@ function Top() {
             </div>
             <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
                 <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <p style={{ padding: 0, marginLeft: 30, fontSize: 20, fontWeight: 'bold' }}>All Camaigns</p>
-                    <p style={{ padding: 0, marginLeft: 30, fontSize: 20, fontWeight: 'bold' }}>Quick Camaigns</p>
-                    <p style={{ padding: 0, marginLeft: 30, fontSize: 20, fontWeight: 'bold' }}>CSV Camaigns</p>
-                    <p style={{ padding: 0, marginLeft: 30, fontSize: 20, fontWeight: 'bold' }}>URI over Camaigns</p>
+                    <p className="jay" >All Camaigns</p>
+                    <p className="jay">Quick Camaigns</p>
+                    <p className="jay">CSV Camaigns</p>
+                    <p className="jay">URI over Camaigns</p>
                 </div>
                 <div>
                     <FormControlLabel control={<Checkbox name="checkedC" />} label="Show Archieved" />

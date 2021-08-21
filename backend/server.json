@@ -1,0 +1,12 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "CampaignsName": "Website Promotion Landing",
+            "createdat": "15th july",
+            "Method": "CSV",
+            "Media": "Video",
+            "Status":"success"
+        }
+    ]
+}

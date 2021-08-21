@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import Typography from '@material-ui/core/Typography';
 import '../Style.css';
 
-function LinkStyle({ name, imagename, to, value }) {
-    console.log(value)
+function LinkStyle({ name, imagename, to}) {
+
     return (
         <Link to={to} style={{ textDecoration: 'none', color: 'black', }}>
             <Typography

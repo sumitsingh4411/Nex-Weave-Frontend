@@ -7,8 +7,10 @@ function Home() {
     return (
         <div>
             <Header />
-            <Top />
-            <TableStyle />
+            <div style={{ marginLeft: 300, marginRight: 30 }}>
+                <Top />
+                <TableStyle />
+            </div>
         </div>
     )
 }

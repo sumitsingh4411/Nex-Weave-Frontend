@@ -1,4 +1,13 @@
-.link-style{
+.link-style {
   text-decoration: none;
   color: black;
+}
+.jay {
+  margin-left: 30px;
+  font-size: 20px;
+  margin-top: 2px;
+  font-weight: bolder;
+}
+.jay:hover{
+  border-bottom: 2px solid red;
 }
