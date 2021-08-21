@@ -1,0 +1,7 @@
+.hello:hover{
+   border-left: 3px solid red;
+}
+.hello>p:hover{
+    opacity: 1;
+    color: #4D148C;
+}
