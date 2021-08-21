@@ -6,7 +6,31 @@
             "createdat": "15th july",
             "Method": "CSV",
             "Media": "Video",
-            "Status":"success"
+            "Status": "success"
+        },
+        {
+            "id": 2,
+            "CampaignsName": "App Download",
+            "createdat": "12th march",
+            "Method": "URL override",
+            "Media": "Video",
+            "Status": "Failed"
+        },
+        {
+            "id": 3,
+            "CampaignsName": "Website Promotion Landing",
+            "createdat": "20th january",
+            "Method": "CSV",
+            "Media": "Video",
+            "Status": "success"
+        },
+        {
+            "id": 4,
+            "CampaignsName": "Website Promotion Landing",
+            "createdat": "13th Agust",
+            "Method": "URL override",
+            "Media": "Video",
+            "Status": "Failed"
         }
     ]
 }

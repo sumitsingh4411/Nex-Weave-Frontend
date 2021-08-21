@@ -11,7 +11,8 @@ import logout from '../../assets/images/sign-out-alt-solid.svg';
 import task from '../../assets/images/tasks-solid.svg';
 import './HeaderStyle.css';
 import LinkStyle from '../common/link/LinkStyle';
-
+import ChatBubbleIcon from '@material-ui/icons/ChatBubble';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 const useStyles = makeStyles((theme) => ({
     root: {
 
@@ -118,11 +119,11 @@ export default function ButtonAppBar() {
                         <Typography variant="h7" className={classes.title} style={{ marginRight: 60 }}>
                             Web campign
                         </Typography>
-                        <Typography variant="h7" className={classes.title} style={{ marginRight: 30 }}>
+                        <Typography variant="h7" className={classes.title} style={{ marginRight: 50 }}>
                             Creadits: 200
                         </Typography>
-                        <Button color="black">Login</Button>
-                        <Button color="black">Login</Button>
+                        <ChatBubbleIcon style={{color:'cyan', marginRight:10}}/>
+                        <AccountCircleIcon style={{color:'black', marginRight:10, fontSize:40}}/>
                     </Typography>
                 </Toolbar>
             </AppBar>
