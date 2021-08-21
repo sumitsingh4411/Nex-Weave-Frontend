@@ -13,6 +13,7 @@ import './HeaderStyle.css';
 import LinkStyle from '../common/link/LinkStyle';
 import ChatBubbleIcon from '@material-ui/icons/ChatBubble';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+
 const useStyles = makeStyles((theme) => ({
     root: {
 
@@ -84,7 +85,6 @@ export default function ButtonAppBar() {
             </Typography>
         </div>
     );
-    //
     return (
         <div className={classes.root} style={{ marginLeft: state['left'] === true ? 300 : 0, }}>
             <AppBar position="static" style={{ background: '#0000' }}>
