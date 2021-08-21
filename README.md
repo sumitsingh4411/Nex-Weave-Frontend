@@ -1,3 +1,15 @@
+
+## how to start locally
+
+  1. Download this repository
+  2. open in text editor
+  3. run comman "npm install" to install all package
+  4. run command " npx json-server --watch backend/server.json --port 3001" for starting json server
+  5. run command  "npm start" for starting project
+  
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
